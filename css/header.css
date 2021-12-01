@@ -1,0 +1,45 @@
+.header{
+    grid-column: 1/-1;
+    background-image: linear-gradient(to bottom, #4d4c4c4f,black),url("../pic/header.jpg");
+    background-size: cover; 
+    background-position: center bottom;
+    color: white;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(3,min-content);
+    grid-template-columns: max-content;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+.header h3{
+    font-size: 30px;
+}
+.header h1{
+    font-size: 40px;
+
+}
+.header span{
+    color: orange;
+}
+.header-btn{
+    border: 1px solid orange;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    padding: 20px 30px;
+    transition: .4s;
+    justify-self:center;
+}
+.header-btn:hover{
+    background-color: white;
+    color: orange;
+}
+@media screen and (max-width:400px) {
+    .header h1{
+        font-size: 35px;
+    }
+    
+}

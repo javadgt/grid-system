@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns:  repeat(6 , 1fr);
+    grid-template-rows: 80vh repeat(5 , max-content);
+}
+.section-title{
+    text-align: center;
+    margin: 30px;
+    font-size: 27px;
+    color: orange;
+}
+.section-title::after ,
+.section-title::before{
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 5%;
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+    margin: 0 7px;
+}

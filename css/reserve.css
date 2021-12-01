@@ -1,0 +1,4 @@
+.reserve{
+    grid-column: 1/-1;
+    background-color: brown;
+}
